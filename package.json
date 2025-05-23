@@ -1,16 +1,25 @@
 {
-  "name": "wang-trae",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "picocolors",
+  "version": "1.1.1",
+  "main": "./picocolors.js",
+  "types": "./picocolors.d.ts",
+  "browser": {
+    "./picocolors.js": "./picocolors.browser.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "vite": "^6.3.5"
-  }
+  "sideEffects": false,
+  "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+  "files": [
+    "picocolors.*",
+    "types.d.ts"
+  ],
+  "keywords": [
+    "terminal",
+    "colors",
+    "formatting",
+    "cli",
+    "console"
+  ],
+  "author": "Alexey Raspopov",
+  "repository": "alexeyraspopov/picocolors",
+  "license": "ISC"
 }
